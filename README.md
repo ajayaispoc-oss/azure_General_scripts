@@ -1,2 +1,1 @@
-# azure_General_scripts
-# azure_General_scripts
+@{concat('uploads/', formatDateTime(utcNow(), 'yyyy-MM-dd_HH-mm-ss'), '/', triggerBody()?['filename'])}
